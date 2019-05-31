@@ -45,7 +45,7 @@ ycm_ep_helper(YARP TYPE GIT
                               -DENABLE_yarpmod_imuBosch_BNO055:BOOL=${ROBOTOLOGY_ENABLE_ICUB_HEAD}
                               -DENABLE_yarpmod_SDLJoypad:BOOL=ON
                               -DYARP_COMPILE_EXPERIMENTAL_WRAPPERS:BOOL=ON
-                              -DYARP_COMPILE_RTF_ADDONS:BOOL=ON
+                              -DYARP_COMPILE_RTF_ADDONS:BOOL=OFF
                               -DYARP_COMPILE_BINDINGS:BOOL=${YARP_COMPILE_BINDINGS}
                               -DYARP_USE_I2C:BOOL=${ROBOTOLOGY_ENABLE_ICUB_HEAD}
                               -DYARP_USE_SDL:BOOL=ON
