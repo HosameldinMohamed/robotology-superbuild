@@ -20,10 +20,7 @@ env:
   global:
     - TRAVIS_CMAKE_GENERATOR="Unix Makefiles"
   matrix:
-    - TRAVIS_BUILD_TYPE="Release" UBUNTU="xenial", ROBOTOLOGY_ENABLE_DYNAMICS=TRUE
-    - TRAVIS_BUILD_TYPE="Debug" UBUNTU="xenial", ROBOTOLOGY_ENABLE_DYNAMICS=TRUE
     - TRAVIS_BUILD_TYPE="Release" UBUNTU="bionic", ROBOTOLOGY_ENABLE_DYNAMICS=TRUE
-    - TRAVIS_BUILD_TYPE="Debug" UBUNTU="bionic", ROBOTOLOGY_ENABLE_DYNAMICS=TRUE
 
 # ===================
 # STAGE: test (linux)
