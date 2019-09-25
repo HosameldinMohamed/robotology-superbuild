@@ -8,3 +8,6 @@ iDynTree
 icub-gazebo-wholebody
 icub-tests
 yarp-matlab-bindings
+icub-firmware-shared
+robots-configuration
+
